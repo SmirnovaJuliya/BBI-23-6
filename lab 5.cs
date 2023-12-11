@@ -308,7 +308,7 @@ namespace ConsoleApp1
         //    int[] largestel = new int[5];
         //    for (int i = 0; i < 5; i++)
         //    {
-        //        largestel[i] = -10**10;
+        //        largestel[i] = -10^10;
         //    }
 
         //    for (int i = 0; i < rows; i++)
