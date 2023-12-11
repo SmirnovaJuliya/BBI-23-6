@@ -293,7 +293,7 @@ namespace ConsoleApp1
         //        { 25,26,27,28,29,30},
         //        { 31,32,33,34,35,36 }
         //    };
-        
+
 
         //    fivemaxels(A);
         //    fivemaxels(B);
@@ -301,14 +301,14 @@ namespace ConsoleApp1
 
         //static void fivemaxels(int[,] C)
         //{
-            
+
         //    int rows = C.GetLength(0);
         //    int cols = C.GetLength(1);
 
         //    int[] largestel = new int[5];
         //    for (int i = 0; i < 5; i++)
         //    {
-        //        largestel[i] = -1;
+        //        largestel[i] = -10**10;
         //    }
 
         //    for (int i = 0; i < rows; i++)
@@ -349,8 +349,8 @@ namespace ConsoleApp1
         //            {
         //                C[i, j] /= 2;
         //            }
-                    
-                       
+
+
         //        }
         //    }
         //    Console.WriteLine("преобразованная матрица:");
