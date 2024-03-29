@@ -2,92 +2,92 @@
 
 // num 1, перенос методов sort и res внутрь класса, удаление неиспользуемых полей
 
-class Sportsmen
-{
-    private string famile;
-    private double rez1, rez2, rez;
-    private bool disqualfieted;
+// class Sportsmen
+// {
+//     private string famile;
+//     private double rez1, rez2, rez;
+//     private bool disqualfieted;
 
-    public Sportsmen(string f, double r1, double r2)
-    {
-        famile = f;
-        rez1 = r1;
-        rez2 = r2;
-        if (rez1 > rez2)
-        {
-            rez = rez1;
-        }
-        else
-        {
-            rez = rez2;
-        }
-        disqualfieted = false;
-    }
-    public string GetFamile()
-    {
-        return famile;
-    }
+//     public Sportsmen(string f, double r1, double r2)
+//     {
+//         famile = f;
+//         rez1 = r1;
+//         rez2 = r2;
+//         if (rez1 > rez2)
+//         {
+//             rez = rez1;
+//         }
+//         else
+//         {
+//             rez = rez2;
+//         }
+//         disqualfieted = false;
+//     }
+//     public string GetFamile()
+//     {
+//         return famile;
+//     }
 
-    public double GetRez()
-    {
-        return rez;
-    }
-    public void Disqualify()
-    {
-        disqualfieted = true;
-    }
-    public bool IsDisqualfieted()
-    {
-        return disqualfieted;
-    }
-    public void info()
-    {
-        Console.WriteLine($"Фамилия {GetFamile()}\t Результат {GetRez():f2}");
-    }
-    public static void sort(Sportsmen[] sp)
-    {
-        for (int i = 0; i < sp.Length - 1; i++)
-        {
-            for (int j = 0; j < sp.Length - i - 1; j++)
-            {
-                if (sp[j].GetRez() < sp[j + 1].GetRez())
-                {
-                    Sportsmen t = sp[j];
-                    sp[j] = sp[j + 1];
-                    sp[j + 1] = t;
-                }
-            }
-        }
-    }
-    public static void res(Sportsmen[] sp)
-    {
-        for (int i = 0; i < sp.Length; i++)
-        {
-            if (sp[i].IsDisqualfieted() == false)
-            {
-                sp[i].info();
-            }
-        }
-    }
-}
+//     public double GetRez()
+//     {
+//         return rez;
+//     }
+//     public void Disqualify()
+//     {
+//         disqualfieted = true;
+//     }
+//     public bool IsDisqualfieted()
+//     {
+//         return disqualfieted;
+//     }
+//     public void info()
+//     {
+//         Console.WriteLine($"Фамилия {GetFamile()}\t Результат {GetRez():f2}");
+//     }
+//     public static void sort(Sportsmen[] sp)
+//     {
+//         for (int i = 0; i < sp.Length - 1; i++)
+//         {
+//             for (int j = 0; j < sp.Length - i - 1; j++)
+//             {
+//                 if (sp[j].GetRez() < sp[j + 1].GetRez())
+//                 {
+//                     Sportsmen t = sp[j];
+//                     sp[j] = sp[j + 1];
+//                     sp[j + 1] = t;
+//                 }
+//             }
+//         }
+//     }
+//     public static void res(Sportsmen[] sp)
+//     {
+//         for (int i = 0; i < sp.Length; i++)
+//         {
+//             if (sp[i].IsDisqualfieted() == false)
+//             {
+//                 sp[i].info();
+//             }
+//         }
+//     }
+// }
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        Sportsmen[] sp = new Sportsmen[5];
-        sp[0] = new Sportsmen("Иванов", 1.50, 1.52);
-        sp[1] = new Sportsmen("Петров", 1.55, 1.8);
-        sp[2] = new Sportsmen("Сидоров", 1.47, 1.5);
-        sp[3] = new Sportsmen("Кузнецов", 1.46, 1.43);
-        sp[4] = new Sportsmen("Макаров", 1.54, 1.44);
+// class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Sportsmen[] sp = new Sportsmen[5];
+//         sp[0] = new Sportsmen("Иванов", 1.50, 1.52);
+//         sp[1] = new Sportsmen("Петров", 1.55, 1.8);
+//         sp[2] = new Sportsmen("Сидоров", 1.47, 1.5);
+//         sp[3] = new Sportsmen("Кузнецов", 1.46, 1.43);
+//         sp[4] = new Sportsmen("Макаров", 1.54, 1.44);
 
-        sp[3].Disqualify();
-        Sportsmen.sort(sp);
-        Sportsmen.res(sp);
+//         sp[3].Disqualify();
+//         Sportsmen.sort(sp);
+//         Sportsmen.res(sp);
 
-    }
-}
+//     }
+// }
 
 
 
