@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSportsmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sportsmen>
+    <Famile>Макаров</Famile>
+    <Rez>
+      <double>8</double>
+      <double>8.5</double>
+      <double>7.5</double>
+      <double>9</double>
+      <double>8.5</double>
+      <double>8</double>
+      <double>9</double>
+      <double>8</double>
+      <double>9</double>
+      <double>8.5</double>
+    </Rez>
+    <JumpType>Прыжки в воду с 5м вышки</JumpType>
+  </Sportsmen>
+  <Sportsmen>
+    <Famile>Сидоров</Famile>
+    <Rez>
+      <double>7</double>
+      <double>6.5</double>
+      <double>5.5</double>
+      <double>7</double>
+      <double>7.5</double>
+      <double>6</double>
+      <double>8</double>
+      <double>7</double>
+      <double>8</double>
+      <double>8</double>
+    </Rez>
+    <JumpType>Прыжки в воду с 3м вышки</JumpType>
+  </Sportsmen>
+  <Sportsmen>
+    <Famile>Иванов</Famile>
+    <Rez>
+      <double>5</double>
+      <double>3</double>
+      <double>6</double>
+      <double>5.5</double>
+      <double>6</double>
+      <double>7</double>
+      <double>6.5</double>
+      <double>5</double>
+      <double>6</double>
+      <double>6</double>
+    </Rez>
+    <JumpType>Прыжки в воду с 3м вышки</JumpType>
+  </Sportsmen>
+  <Sportsmen>
+    <Famile>Смирнов</Famile>
+    <Rez>
+      <double>3.5</double>
+      <double>4.5</double>
+      <double>6</double>
+      <double>5</double>
+      <double>4.5</double>
+      <double>5.5</double>
+      <double>6</double>
+      <double>5</double>
+      <double>4</double>
+      <double>6</double>
+    </Rez>
+    <JumpType>Прыжки в воду с 5м вышки</JumpType>
+  </Sportsmen>
+  <Sportsmen>
+    <Famile>Петров</Famile>
+    <Rez>
+      <double>4</double>
+      <double>4.5</double>
+      <double>3</double>
+      <double>5</double>
+      <double>6</double>
+      <double>5.5</double>
+      <double>4</double>
+      <double>5</double>
+      <double>4.5</double>
+      <double>5</double>
+    </Rez>
+    <JumpType>Прыжки в воду с 3м вышки</JumpType>
+  </Sportsmen>
+</ArrayOfSportsmen>
